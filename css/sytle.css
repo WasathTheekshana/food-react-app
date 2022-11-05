@@ -1,1 +1,38 @@
-/*# sourceMappingURL=sytle.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Goblin+One&family=Taviraj:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  height: 100vh;
+}
+.container .image {
+  display: flex;
+  justify-content: right;
+  height: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.container .paragraph {
+  margin-top: 300px;
+  margin-left: 200px;
+  float: left;
+}
+.container .paragraph .headind {
+  color: white;
+  font-family: "Goblin one";
+  font-size: 4rem;
+}
+.container .paragraph p {
+  margin-top: 50px;
+  color: rgb(177, 177, 177);
+  font-family: "Taviraj";
+  font-size: 1.5rem;
+  line-height: 2rem;
+}/*# sourceMappingURL=sytle.css.map */
