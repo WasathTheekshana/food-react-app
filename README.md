@@ -1,2 +1,1 @@
-# food-react-app
-Food app creating with React JS.
+Wasath Theekshana's Portfolio
